@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro App.js</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600;800&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Le <span>POMODORO</span></h1>
+    <div class="global-container">
+      <div class="container">
+        <h2>Travail</h2>
+        <p id="worktime">30:00</p>
+      </div>
+
+      <div class="container">
+        <h2>Repos</h2>
+        <p id="pausetime">05:00</p>
+      </div>
+
+      <div class="small-container">
+        <button id="play-pause-btn"><img id="imgToChange" src="ressources/play.svg" alt="Boutton Play"></button>
+      </div>
+
+      <div class="small-container">
+        <button id="reset-btn"><img src="ressources/reset.svg" alt="Boutton Play"></button>
+      </div>
+    </div>
+
+    <h3>Cycle(s) : <span id="cycle">0</span></h3>
+    <script src="app.js"></script>
+  </body>
+</html>
